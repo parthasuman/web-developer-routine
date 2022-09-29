@@ -3,8 +3,6 @@ import Break from "../Break/Break";
 import "./Personal.css";
 
 const Personal = ({ cart }) => {
-  // const { personal } = props;
-
   let Time = 0;
   for (const product of cart) {
     Time = Time + product.Time;
