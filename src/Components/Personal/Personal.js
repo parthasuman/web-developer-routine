@@ -1,8 +1,12 @@
 import Break from "../Break/Break";
-
+import Swal from "sweetalert2";
 import "./Personal.css";
 
 const Personal = ({ cart }) => {
+  const addTos = () => {
+    Swal.fire("Good job!", "You Completed all Work!", "success");
+  };
+
   let Time = 0;
   for (const product of cart) {
     Time = Time + product.Time;
@@ -28,7 +32,6 @@ const Personal = ({ cart }) => {
         <p>
           <small>Weight: 60kg</small>
         </p>
-        <p>Selected Items: {cart.length}</p>
       </div>
       <div className="break">
         <h4>Add A Break</h4>
@@ -44,7 +47,7 @@ const Personal = ({ cart }) => {
         </p>
       </div>
       <button className="btn-active">
-        <p>Activity Completed</p>
+        <p onClick={addTos}>Activity Completed</p>
       </button>
     </div>
   );
