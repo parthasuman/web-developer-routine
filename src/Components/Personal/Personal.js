@@ -1,6 +1,6 @@
-import Break from "../Break/Break";
 import Swal from "sweetalert2";
 import "./Personal.css";
+import { useState } from "react";
 
 const Personal = ({ cart }) => {
   const addTos = () => {
@@ -35,15 +35,12 @@ const Personal = ({ cart }) => {
       </div>
       <div className="break">
         <h4>Add A Break</h4>
-        <Break></Break>
+        <Counter></Counter>
       </div>
       <div>
         <h5>Exercise Details</h5>
         <p>
           <small>Exercise time:{Time} Days</small>
-        </p>
-        <p>
-          <small>Break time:</small>
         </p>
       </div>
       <button className="btn-active">
@@ -52,5 +49,24 @@ const Personal = ({ cart }) => {
     </div>
   );
 };
+
+function Counter() {
+  const [count, setCount] = useState(0);
+
+  const increaseCount = () => setCount(count + 5);
+  const increaseCount1 = () => setCount(count + 7);
+  const increaseCount2 = () => setCount(count + 10);
+  const increaseCount3 = () => setCount(count + 15);
+
+  return (
+    <div>
+      <h4>BreaK-1 Time: {count} </h4>
+      <button onClick={increaseCount}>5</button>
+      <button onClick={increaseCount1}>7</button>
+      <button onClick={increaseCount2}>10</button>
+      <button onClick={increaseCount3}>15</button>
+    </div>
+  );
+}
 
 export default Personal;
