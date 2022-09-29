@@ -48,9 +48,9 @@ const Information = () => {
           state is a local data storage that is local to the component only and
           cannot be passed to other components.
         </p>
-        <h5>where use in useeffect except api load data?</h5>
+        <h5>where use in useeffect except api load data ?</h5>
         <p>
-          The useEffect Hook allows you to perform side effects in your
+          Ans: The useEffect Hook allows you to perform side effects in your
           components. Some examples of side effects are: fetching data, directly
           updating the DOM, and timers.
         </p>
