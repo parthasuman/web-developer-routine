@@ -1,0 +1,44 @@
+[
+  {
+    "id": "101",
+    "name": "HTML",
+    "Time": 5,
+    "img": "images/html.jpg",
+    "Details": "HTML is the language in which most websites are written. HTML is used to create pages and make them functional."
+  },
+  {
+    "id": "102",
+    "name": "CSS",
+    "Time": 7,
+    "img": "images/css.jpg",
+    "Details": "CSS stands for Cascading Style Sheets."
+  },
+  {
+    "id": "103",
+    "name": "HTML-5",
+    "Time": 4,
+    "img": "images/html5.jpg",
+    "Details": "HTML5 is the latest standard of Hypertext Markup Language, the code that describes the structure and presentation of web pages."
+  },
+  {
+    "id": "104",
+    "name": "Bootstrap",
+    "Time": 5,
+    "img": "images/bootstrap.jpg",
+    "Details": "Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites."
+  },
+  {
+    "id": "105",
+    "name": "Javascript",
+    "Time": 15,
+    "img": "images/javascript.jpg",
+    "Details": "JavaScript often abbreviated to JS, is a programming language."
+  },
+  {
+    "id": "106",
+    "name": "React",
+    "Time": 15,
+    "img": "images/react.jpg",
+    "Details": "React makes it painless to create interactive UIs."
+  }
+]
