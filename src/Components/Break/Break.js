@@ -2,7 +2,7 @@ import React from "react";
 
 const Break = (props) => {
   return (
-    <div>
+    <div className="break-btn">
       <button onclick={props.handleAddClick}>5</button>
       <button onclick={props.handleAddClick}>7</button>
       <button onclick={props.handleAddClick}>10</button>
